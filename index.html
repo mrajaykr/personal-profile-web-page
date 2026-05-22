@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajay Kumar | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Ajay Kumar home">
+        <span>AK</span>
+        <strong>Ajay Kumar</strong>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#summary">Summary</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#internships">Internships</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button class="theme-toggle" type="button" aria-label="Change theme">Light</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-panel" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Computer Science Engineering Student</p>
+        <h1>Ajay Kumar</h1>
+        <p class="hero-text">
+          CSE student with a Diploma in Electronics, focused on software development,
+          web development, and practical user-focused applications.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#portfolio">View Projects</a>
+          <a class="button ghost" href="mailto:ajaykumar.csengineer@gmail.com">Email Me</a>
+        </div>
+        <div class="quick-stats" aria-label="Resume highlights">
+          <div>
+            <strong data-count="3">0</strong>
+            <span>Projects</span>
+          </div>
+          <div>
+            <strong data-count="4">0</strong>
+            <span>Skill Groups</span>
+          </div>
+          <div>
+            <strong data-count="2">0</strong>
+            <span>Internships</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="profile-frame">
+          <img
+            src="Ajay.png"
+            alt="Portrait of Ajay Kumar"
+          >
+          <div class="profile-note">
+            <span>Expected Graduation</span>
+            <strong>B.Tech CSE, 2027</strong>
+          </div>
+        </div>
+        <!-- <div class="floating-card card-top">
+          <span>CSE</span>
+          <strong>Software Development</strong>
+        </div>
+        <div class="floating-card card-bottom">
+          <span>ECE</span>
+          <strong>Diploma CGPA 8.34</strong>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="section-panel resume-section" id="summary">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Profile Summary</p>
+        <h2>Computer Science Engineering student with a Diploma in Electronics and
+          hands-on experience in C++, JavaScript, and web development. Developed
+          projects including e-commerce websites and Apna Bihar. Interested in
+          software development and building practical user-focused applications.</h2>
+      </div>
+      <article class="summary-card reveal">
+        <p>
+          
+        </p>
+      </article>
+    </section>
+
+    <section class="section-panel skills" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Technical Skills</p>
+        <h2>Skills listed from my resume.</h2>
+      </div>
+
+      <div class="skills-layout">
+        <div class="skill-list reveal">
+          <article class="skill-item">
+            <div>
+              <h3>Languages</h3>
+              <span>C/C++, Python, Java</span>
+            </div>
+            <strong>85%</strong>
+            <div class="skill-bar"><span data-level="85"></span></div>
+          </article>
+          <article class="skill-item">
+            <div>
+              <h3>Web Development</h3>
+              <span>HTML, CSS, JavaScript, Firebase</span>
+            </div>
+            <strong>82%</strong>
+            <div class="skill-bar"><span data-level="82"></span></div>
+          </article>
+          <article class="skill-item">
+            <div>
+              <h3>Tools & Technologies</h3>
+              <span>Git, GitHub, VS Code, Arduino</span>
+            </div>
+            <strong>76%</strong>
+            <div class="skill-bar"><span data-level="76"></span></div>
+          </article>
+          <article class="skill-item">
+            <div>
+              <h3>Core Concepts</h3>
+              <span>Data Structures & Algorithms, OOP, Problem Solving</span>
+            </div>
+            <strong>74%</strong>
+            <div class="skill-bar"><span data-level="74"></span></div>
+          </article>
+        </div>
+
+        <div class="toolbox reveal">
+          <h3>Current Focus</h3>
+          <div class="tool-tags">
+            <span>Software Development</span>
+            <span>User-Focused Apps</span>
+            <span>Frontend Projects</span>
+            <span>Firebase</span>
+            <span>Arduino</span>
+            <span>Problem Solving</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-panel portfolio" id="portfolio">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projects</p>
+        <h2>Projects from my resume.</h2>
+      </div>
+
+      <div class="filter-bar reveal" aria-label="Project filters">
+        <button class="filter-button active" type="button" data-filter="all">All</button>
+        <button class="filter-button" type="button" data-filter="hardware">Hardware</button>
+        <button class="filter-button" type="button" data-filter="web">Web</button>
+        <button class="filter-button" type="button" data-filter="firebase">Firebase</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal" data-category="hardware" data-title="Automatic Plant Watering System" data-details="Built an automated irrigation system using Arduino and soil moisture sensors to detect plant water needs and support automatic watering.">
+          <img src="Plant-watering-system.webp" alt="Arduino hardware project components">
+          <div class="project-body">
+            <span>Arduino</span>
+            <h3>Automatic Plant Watering System</h3>
+            <p>Arduino and soil moisture sensor based automated irrigation.</p>
+            <button class="text-button" type="button">View Details</button>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="web" data-title="Apna Bihar" data-details="Developed a Bihar-focused cultural and tourism web platform featuring district-wise tourist places, cultural information, and useful state-focused content.">
+          <img src="Apna-bihar.jpg" alt="Scenic cultural tourism destination">
+          <div class="project-body">
+            <span>HTML CSS JS</span>
+            <h3>Apna Bihar</h3>
+            <p>Cultural and tourism web platform focused on Bihar.</p>
+            <button class="text-button" type="button">View Details</button>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="firebase" data-title="Plant Nursery E-commerce Website" data-details="Built a plant nursery e-commerce website using HTML, CSS, JavaScript, and Firebase with user authentication and shopping cart functionality.">
+          <img src="E-commerce.webp" alt="Plant nursery with green plants">
+          <div class="project-body">
+            <span>Firebase</span>
+            <h3>E-commerce Website</h3>
+            <p>Plant nursery store with authentication and cart features.</p>
+            <button class="text-button" type="button">View Details</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-panel timeline-section" id="internships">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Internships</p>
+        <h2>Industry exposure and technical training.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <span>Nov 2023 - Dec 2023</span>
+          <h3>NIELIT, Patna</h3>
+          <p>PCB Designing Intern. Designed PCB layouts and learned circuit optimization techniques.</p>
+        </article>
+        <article class="timeline-item reveal">
+          <span>Dec 2022 - Jan 2023</span>
+          <h3>All India Radio, Darbhanga</h3>
+          <p>Trainee. Learned broadcasting systems and signal transmission basics.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-panel timeline-section" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Education</p>
+        <h2>Academic background.</h2>
+      </div>
+
+      <div class="education-grid">
+        <article class="education-card reveal">
+          <span>Expected 2027</span>
+          <h3>B.Tech, CSE</h3>
+          <p>Dr. C.V. Raman University</p>
+        </article>
+        <article class="education-card reveal">
+          <span>2024</span>
+          <h3>Diploma, ECE</h3>
+          <p>G.P. Darbhanga | CGPA: 8.34</p>
+        </article>
+        <article class="education-card reveal">
+          <span>2021</span>
+          <h3>Class XII, CBSE</h3>
+          <p>71.8%</p>
+        </article>
+        <article class="education-card reveal">
+          <span>2019</span>
+          <h3>Class X, CBSE</h3>
+          <p>73.8%</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-panel resume-section" id="certifications">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Certifications</p>
+        <h2>Certifications and learning programs.</h2>
+      </div>
+
+      <div class="certification-grid">
+        <article class="cert-card reveal">Programming in Java — NPTEL</article>
+        <article class="cert-card reveal">Workshop of Python and Cybersecurity — Dr. C.V. Raman University</article>
+        <article class="cert-card reveal">Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate — Oracle</article>
+        <article class="cert-card reveal">MongoDB Overview: Core Concepts and Architecture — MongoDB</article>
+        <article class="cert-card reveal">Tata GenAI Powered Data Analytics Job Simulation — Forage</article>
+        <article class="cert-card reveal">Web Design & Development — Skill India Digital Hub</article>
+      </div>
+    </section>
+
+    <section class="section-panel resume-section" id="achievements">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Achievements</p>
+        <h2>Highlights beyond coursework.</h2>
+      </div>
+
+      <div class="achievement-list">
+        <article class="achievement-card reveal">
+          <h3>World Hindi Olympiad</h3>
+          <p>Secured 1st Prize in the World Hindi Olympiad Competition at Graduation Level.</p>
+        </article>
+        <article class="achievement-card reveal">
+          <h3>Technical Participation</h3>
+          <p>Participated in coding contests and technical learning programs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-panel contact" id="contact">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let us connect.</h2>
+        <p>
+          I am open to software development learning opportunities, web projects,
+          internships, and collaboration.
+        </p>
+        <div class="social-links" aria-label="Social links">
+          <a href="tel:+919472432140"><span>Ph</span> Phone</a>
+          <a href="mailto:ajaykumar.csengineer@gmail.com"><span>@</span> Email</a>
+          <a href="https://linkedin.com/in/mrajaykumar1" target="_blank" rel="noreferrer"><span>in</span> LinkedIn</a>
+          <a href="https://github.com/mrajaykr" target="_blank" rel="noreferrer"><span>GH</span> GitHub</a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <label>
+          Name
+          <input type="text" id="name" name="name" placeholder="Your name">
+        </label>
+        <label>
+          Email
+          <input type="email" id="email" name="email" placeholder="you@example.com">
+        </label>
+        <label>
+          Message
+          <textarea id="message" name="message" rows="5" placeholder="Write your message"></textarea>
+        </label>
+        <button class="button primary" type="submit">Send Message</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <div class="project-modal" id="projectModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" aria-label="Close project details">Close</button>
+      <p class="eyebrow">Project Details</p>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDetails"></p>
+    </div>
+  </div>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">Top</button>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Ajay Kumar. Portfolio based on resume details.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
